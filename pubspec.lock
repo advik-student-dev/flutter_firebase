@@ -232,6 +232,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  ollama:
+    dependency: "direct main"
+    description:
+      name: ollama
+      sha256: "41eb397f2767e6092218737c5253f35d25164f729ab1d232f95797371eb652f3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   path:
     dependency: transitive
     description:
@@ -336,5 +344,3 @@ packages:
 sdks:
   dart: ">=3.3.0 <4.0.0"
   flutter: ">=3.3.0"
-
-

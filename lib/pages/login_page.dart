@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
     //dismiss the loading circle
     Navigator.of(context).pop();
   }
-
+                  
   @override
   void dispose() {
     _emailController.dispose();
