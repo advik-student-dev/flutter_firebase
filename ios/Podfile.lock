@@ -691,14 +691,6 @@ PODS:
     - nanopb (< 2.30910.0, >= 2.30908.0)
   - FirebaseSharedSwift (10.21.0)
   - Flutter (1.0.0)
-  - google_maps_flutter_ios (0.0.1):
-    - Flutter
-    - GoogleMaps (< 9.0)
-  - GoogleMaps (6.2.1):
-    - GoogleMaps/Maps (= 6.2.1)
-  - GoogleMaps/Base (6.2.1)
-  - GoogleMaps/Maps (6.2.1):
-    - GoogleMaps/Base
   - GoogleUtilities/AppDelegateSwizzler (7.13.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -797,7 +789,6 @@ DEPENDENCIES:
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
   - Flutter (from `Flutter`)
-  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
 
 SPEC REPOS:
   trunk:
@@ -812,7 +803,6 @@ SPEC REPOS:
     - FirebaseFirestore
     - FirebaseFirestoreInternal
     - FirebaseSharedSwift
-    - GoogleMaps
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
@@ -831,8 +821,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_core/ios"
   Flutter:
     :path: Flutter
-  google_maps_flutter_ios:
-    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
 
 SPEC CHECKSUMS:
   abseil: 926fb7a82dc6d2b8e1f2ed7f3a718bce691d1e46
@@ -850,8 +838,6 @@ SPEC CHECKSUMS:
   FirebaseFirestoreInternal: 7ac1e0c5b4e75aeb898dfe4b1d6d77abbac9eca3
   FirebaseSharedSwift: 19b3f709993d6fa1d84941d41c01e3c4c11eab93
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  google_maps_flutter_ios: f135b968a67c05679e0a53538e900b5c174b0d99
-  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
   GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
   "gRPC-C++": 2df8cba576898bdacd29f0266d5236fa0e26ba6a
   gRPC-Core: a21a60aefc08c68c247b439a9ef97174b0c54f96
